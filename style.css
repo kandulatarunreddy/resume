@@ -1,0 +1,40 @@
+body{
+    justify-content: center;
+    
+}
+.img-tarun img{
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+}
+.grid{
+    display:grid;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 200px auto;
+}
+.summary{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    display: block;
+}
+.top-container{
+    background-color: rgb(204, 248, 245);
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    gap:100px;
+}
+.middle-container{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    gap:10px;
+    padding-top: 5px;
+    
+}
+.bottom-container{
+    background-color: rgb(204, 248, 245);
+}
